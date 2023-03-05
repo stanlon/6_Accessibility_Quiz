@@ -87,6 +87,11 @@ h2 {
     padding: 10px 0 0 5px;
 }
 
+.formrow {
+    margin-top: 30px;
+    padding: 0 15px;
+}
+
 /* To prevent unnecessary repetition, will target the "before" pseudo-element of the p element, and give it a content property of "Question #". */
 p::before {
     content: "Question #"
