@@ -96,6 +96,11 @@ input {
     font-size: 16px;
 }
 
+.info > input {
+    width: 50%;
+    text-align: left;
+}
+
 /* To prevent unnecessary repetition, will target the "before" pseudo-element of the p element, and give it a content property of "Question #". */
 p::before {
     content: "Question #"
