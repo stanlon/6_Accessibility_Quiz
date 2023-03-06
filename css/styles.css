@@ -1,3 +1,8 @@
+/* This gives a nice scroll effect when moving from one part of the web page to another by clicking on the nav links. */
+* {
+    scroll-behavior: smooth;
+  }
+
 body {
     background: #f5f6f7;
     color: #1b1b32;
