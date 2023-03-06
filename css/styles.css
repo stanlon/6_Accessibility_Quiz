@@ -126,6 +126,11 @@ p {
     font-size: 20px;
 }
 
+.question {
+    border: none;
+    padding-bottom: 0;
+  }
+
 /* To prevent unnecessary repetition, will target the "before" pseudo-element of the p element, and give it a content property of "Question #". */
 p::before {
     content: "Question #"
