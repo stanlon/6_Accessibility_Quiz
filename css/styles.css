@@ -131,8 +131,9 @@ p {
     padding-bottom: 0;
   }
 
-  .answers-list > li {
+  .answers-list {
     list-style-type: none;
+    padding: 0;
   }
 
 /* To prevent unnecessary repetition, will target the "before" pseudo-element of the p element, and give it a content property of "Question #". */
