@@ -131,9 +131,19 @@ p {
     padding-bottom: 0;
   }
 
-  .answers-list {
+.answers-list {
     list-style-type: none;
     padding: 0;
+  }
+
+input[type="submit"] {
+    display: block;
+    margin: 40px auto;
+    width: 40%;
+    padding: 15px;
+    font-size: 23px;
+    background: #d0d0d5;
+    border: 3px solid #3b3b4f;
   }
 
 /* To prevent unnecessary repetition, will target the "before" pseudo-element of the p element, and give it a content property of "Question #". */
