@@ -1,6 +1,6 @@
-/* This gives a nice scroll effect when moving from one part of the web page to another by clicking on the nav links. */
+
 * {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;    /* This gives a nice scroll effect when moving from one part of the web page to another by clicking on the nav links. */
   }
 
 body {
