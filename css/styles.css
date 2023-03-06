@@ -153,6 +153,11 @@ footer {
     color: white;
 }
 
+address {
+    text-align: center;
+    padding: 0.3em;
+}
+
 /* To prevent unnecessary repetition, will target the "before" pseudo-element of the p element, and give it a content property of "Question #". */
 p::before {
     content: "Question #"
